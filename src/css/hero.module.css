@@ -1,0 +1,78 @@
+/* Твій початковий код з невеликими правками для адаптивності */
+.heroContainer {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  padding: 96px 48px;
+  gap: 40px; /* Додано відступ між текстом і зображенням */
+}
+
+.heroContentContainer {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 30px;
+  width: 50%;
+}
+
+.heroTitle {
+  line-height: 1.2;
+  font-size: 3rem; /* Бажано вказати розмір для контролю */
+}
+
+.heroBtn {
+  display: inline-flex;
+  width: fit-content; /* Кнопка не буде розтягуватися на всю ширину */
+  cursor: pointer;
+  line-height: 4rem;
+  padding: 0 2rem;
+  letter-spacing: 0.25rem;
+  font-size: 1em;
+  font-weight: 500;
+  border-radius: 2.5rem;
+  color: #FFFFFF;
+  border: 2px solid #FFF;
+  text-decoration: none;
+  transition: all 0.3s ease; /* Додано для плавного ефекту */
+}
+
+/* --- АДАПТИВНА ВЕРСТКА --- */
+
+/* Планшети та невеликі екрани (до 992px) */
+@media (max-width: 992px) {
+  .heroContainer {
+    padding: 60px 30px;
+  }
+  
+  .heroContentContainer {
+    width: 60%; /* Збільшуємо ширину тексту, бо екран вужчий */
+  }
+
+  .heroTitle {
+    font-size: 2.5rem;
+  }
+}
+
+/* Мобільні пристрої (до 768px) */
+@media (max-width: 768px) {
+  .heroContainer {
+    flex-direction: column; /* Контент стає в колонку */
+    text-align: center;     /* Центруємо текст */
+    padding: 40px 20px;
+  }
+
+  .heroContentContainer {
+    width: 100%;           /* Текст на всю ширину */
+    text-align: center;    /* Центруємо елементи всередині */
+    align-items: center;   /* Центруємо кнопку */
+  }
+
+  .heroTitle {
+    font-size: 2rem;
+  }
+
+  .heroBtn {
+    margin-right: 0;       /* Прибираємо правий відступ на мобільних */
+    letter-spacing: 0.1rem; /* Трохи зменшуємо інтервал */
+  }
+}

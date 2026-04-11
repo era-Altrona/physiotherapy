@@ -1,0 +1,128 @@
+:root {
+  /* ===== COLORS (ATHLES) ===== */
+  --text: #9ca3af;
+  --text-h: #f3f4f6;
+  --bg: #10182B;
+  --border: #243C7D;
+
+  --accent: #CC212F;
+  --accent-bg: rgba(204, 33, 47, 0.12);
+  --accent-border: rgba(204, 33, 47, 0.5);
+
+  --code-bg: #161e33;
+  --social-bg: rgba(36, 60, 125, 0.4);
+
+  --shadow:
+    rgba(0, 0, 0, 0.45) 0 12px 20px -4px,
+    rgba(0, 0, 0, 0.3) 0 6px 10px -4px;
+
+  /* ===== FONTS ===== */
+  --sans: 'Overused Grotesk', system-ui, sans-serif;
+  --heading: 'Archivo', system-ui, sans-serif;
+  --mono: ui-monospace, Consolas, monospace;
+
+  font: 18px/145% var(--sans);
+  letter-spacing: 0.2px;
+
+  color-scheme: dark;
+  color: var(--text);
+  background-color: var(--bg);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ===== RESPONSIVE BASE ===== */
+@media (max-width: 1024px) {
+  :root {
+    font-size: 16px;
+  }
+}
+
+/* ===== BODY ===== */
+body {
+  margin: 0;
+  /* background:
+    linear-gradient(
+      to left,
+      rgba(16, 24, 43, 0.9),
+      rgba(16, 24, 43, 0.6) 40%,
+      rgba(16, 24, 43, 0.25) 70%,
+      rgba(16, 24, 43, 0)
+    ),
+    #10182B; */
+}
+
+/* ===== ROOT LAYOUT ===== */
+#root {
+  max-width: 100%;
+  min-height: 100svh;
+  flex-direction: column;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+ 
+
+}
+
+/* ===== HEADINGS ===== */
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-weight: inherit;
+}
+h1,
+h2 {
+  font-family: var(--heading);
+  color: var(--text-h);
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 60px;
+  letter-spacing: -1.5px;
+  margin: 32px 0;
+}
+h2 {
+  margin: 0;
+  font-weight: 500;          /* Archivo 500 */
+  font-size: 48px;
+  line-height: 118%;
+  letter-spacing: -0.5px;
+}
+@media (max-width: 1024px) {
+   h1 {
+    font-size: 38px;
+    margin: 20px 0;
+   } 
+   h2 {font-size: 28px;}
+  }
+
+
+
+  
+
+/* ===== TEXT ===== */
+p {
+  margin: 0;
+  line-height: 155%;
+}
+
+/* ===== CODE / COUNTER ===== */
+code,
+.counter {
+  font-family: var(--mono);
+  display: inline-flex;
+  align-items: center;
+
+  border-radius: 6px;
+  padding: 4px 8px;
+
+  font-size: 14px;
+  line-height: 135%;
+  color: var(--text-h);
+  background: var(--code-bg);
+  border: 1px solid var(--border);
+}

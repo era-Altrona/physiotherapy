@@ -1,0 +1,9 @@
+.svgBackground {
+  background: url('/athles_bg_kv.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto; 
+  background-attachment: fixed; 
+  z-index: -1;
+
+}
