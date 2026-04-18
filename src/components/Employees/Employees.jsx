@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import EmployeeModal from '../modal/EmployeeModal';
 import styles from './employees.module.css';
-import { EmployeesData } from './employees';
+import {EmployeesData} from '../data/employees';
 
 export default function Employees() {
   const [selectedEmployee, setSelectedEmployee] = useState(null);

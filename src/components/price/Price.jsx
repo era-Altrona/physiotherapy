@@ -8,7 +8,7 @@ import {
   RABATY,
   SYSTEM_INCLUDES,
   DIAG_FEATURES,
-} from './data/pricing.ts'
+} from '../data/pricing.ts'
 import styles from './price.module.css'
 
 export default function Price() {
