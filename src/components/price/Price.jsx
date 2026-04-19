@@ -58,7 +58,7 @@ export default function Price() {
           </div>
           <div className={styles.diagRight}>
             <div className={styles.diagOrig}>499 zł</div>
-            <div className={styles.diagPrice}>149<span> zł</span></div>
+            <div className={styles.diagPrice}>0<span> zł</span></div>
             <div className={styles.diagUnit}>/ 60–75 min</div>
             <div className={styles.diagLimit}>⬤ Limitowana liczba miejsc</div>
           </div>

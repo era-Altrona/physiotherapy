@@ -1,22 +1,22 @@
 export const MEDICAL_PACKAGES = [
-  { num: '01', name: 'SPARK', namePl: 'Pierwsza iskra', hours: '1 godzina', price: 250, total: 250 },
-  { num: '02', name: 'BASE', namePl: 'Fundament', hours: '3 godziny', price: 233, total: 699 },
-  { num: '03', name: 'BUILD', namePl: 'Proces', hours: '7 godzin', price: 214, total: 1499 },
-  { num: '04', name: 'PEAK', namePl: 'Szczyt', hours: '12 godzin', price: 200, total: 2400, recommended: true },
+  { num: '01', name: 'SPARK', namePl: 'Pierwsza iskra', hours: '1 godzina', price: 200, total: 200 },
+  { num: '02', name: 'BASE', namePl: 'Fundament', hours: '3 godziny', price: 195, total: 585 },
+  { num: '03', name: 'BUILD', namePl: 'Proces', hours: '7 godzin', price: 185, total: 1295 },
+  { num: '04', name: 'PEAK', namePl: 'Szczyt', hours: '12 godzin', price: 180, total: 2160, recommended: true },
 ]
 
 export const COACHING_PACKAGES = [
-  { num: '01', name: 'SPARK', namePl: 'Pierwsza iskra', hours: '1 godzina', price: 220, total: 220 },
-  { num: '02', name: 'BASE', namePl: 'Fundament', hours: '3 godziny', price: 203, total: 609 },
-  { num: '03', name: 'BUILD', namePl: 'Proces', hours: '7 godzin', price: 186, total: 1299 },
-  { num: '04', name: 'PEAK', namePl: 'Szczyt', hours: '12 godzin', price: 170, total: 2040, recommended: true },
+  { num: '01', name: 'SPARK', namePl: 'Pierwsza iskra', hours: '1 godzina', price: 170, total: 170 },
+  { num: '02', name: 'BASE', namePl: 'Fundament', hours: '3 godziny', price: 165, total: 495 },
+  { num: '03', name: 'BUILD', namePl: 'Proces', hours: '7 godzin', price: 160, total: 1120 },
+  { num: '04', name: 'PEAK', namePl: 'Szczyt', hours: '12 godzin', price: 155, total: 1860, recommended: true },
 ]
 
 export const PSYCHO_SERVICES = [
-  { name: 'Pierwsza wizyta', desc: 'Wywiad, analiza nawyków, cele żywieniowe · 60 min', price: 280, unit: 'zł / sesja' },
-  { name: 'Kolejna wizyta', desc: 'Konsultacja kontrolna, aktualizacja planu · 60 min', price: 220, unit: 'zł / sesja' },
+  { name: 'Pierwsza wizyta', desc: 'Wywiad, analiza nawyków, cele żywieniowe · 60 min', price: 200, unit: 'zł / sesja' },
+  { name: 'Kolejna wizyta', desc: 'Konsultacja kontrolna, aktualizacja planu · 60 min', price: 180, unit: 'zł / sesja' },
   { name: 'Jadłospis miesięczny', desc: 'Indywidualny plan żywieniowy bez konsultacji', price: 200, unit: 'zł' },
-  { name: 'Wizyta + jadłospis', desc: 'Konsultacja + indywidualny plan miesięczny', price: 420, unit: 'zł · oszczędzasz 60 zł', accent: true },
+  { name: 'Wizyta + jadłospis', desc: 'Konsultacja + indywidualny plan miesięczny', price: 350, unit: 'zł · oszczędzasz 60 zł', accent: true },
 ]
 
 export const RABATY = [

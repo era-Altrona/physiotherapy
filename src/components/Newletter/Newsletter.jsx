@@ -4,15 +4,14 @@ export default function Newsletter() {
   return (
     <section className={style.newsletterSection}>
       <div className={style.container}>
-        <span className={style.hashtag}>#NOMERCY</span>
+      
         
         <h2 className={style.title}>
           <span className={style.redLetter}>N</span>ewsletter
         </h2>
         
         <p className={style.subtitle}>
-          Zapisz się i otrzymaj <span className={style.accent}>50 zł</span> zniżki na pierwsze zamówienie!
-        </p>
+         Zapisz się na darmową diagnostykę</p>
 
         <form className={style.form} onSubmit={(e) => e.preventDefault()}>
           <input 
